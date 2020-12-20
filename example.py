@@ -1,8 +1,9 @@
 from visual_logging import VisualLogger
-from time import sleep
-from random import random
 
 logger = VisualLogger(online=True, file='tracing.log')
+
+from time import sleep
+from random import random
 
 
 @logger.logit
